@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<listeners>
+<listener class-name="AdTheorent.Automation.ListenerTest"></listener>
+</listeners>
+  <test name="AdTheorent Test">
+    <classes>
+      <class name="AdTheorent.Automation.captureScreenshot"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

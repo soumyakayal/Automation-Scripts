@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AdTheorent_Automation_Suite" parallel="false">
+  <listeners>
+<listener class-name="com.qa.pages.CustomReporter"></listener>
+</listeners>
+   <test name="Upload_Tag_Sheet_Feature">
+
+    <classes>
+    
+      <class name="Test_Runner_With_Maps.TestRunner"/>
+      
+   </classes>      
+  
+    </test>  
+    
+  <test name="Audience Builder UI: Demographic_Targeting">
+   
+    <classes>
+       
+      <class name="Test_Runner_With_Maps.TestRunner_Audience_Builder_UI_Demographic_Targeting"/>
+   
+   </classes>      
+  
+    </test> 
+    
+</suite> 

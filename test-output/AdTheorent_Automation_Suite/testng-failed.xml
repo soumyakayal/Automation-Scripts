@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [AdTheorent_Automation_Suite]">
+  <listeners>
+    <listener class-name="com.qa.pages.CustomReporter"/>
+  </listeners>
+  <test name="Audience Builder UI: Demographic_Targeting(failed)">
+    <classes>
+      <class name="Test_Runner_With_Maps.TestRunner_Audience_Builder_UI_Demographic_Targeting">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="reportSetup"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Test_Runner_With_Maps.TestRunner_Audience_Builder_UI_Demographic_Targeting -->
+    </classes>
+  </test> <!-- Audience Builder UI: Demographic_Targeting(failed) -->
+</suite> <!-- Failed suite [AdTheorent_Automation_Suite] -->

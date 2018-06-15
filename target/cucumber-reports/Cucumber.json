@@ -1,0 +1,336 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11167233486,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens browser",
+            "match": {
+              "location": "AdTheorent_Upload_Tag_Sheet_withMap_Definition.user_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4091541494,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on login page",
+            "match": {
+              "location": "AdTheorent_Upload_Tag_Sheet_withMap_Definition.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7512817,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GeneralHooks.Setup(Scenario)"
+            }
+          }
+        ],
+        "line": 58,
+        "name": "Validate the Tag Sheet Upload Feature in the AdTheorent UAT Platform",
+        "description": "",
+        "id": "tag-sheet-upload-feature;validate-the-tag-sheet-upload-feature-in-the-adtheorent-uat-platform;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 298928,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GeneralHooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10112362464,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user logs into the website by entering \"admin@adtheorent.com\" and \"AdTheorent155\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin@adtheorent.com",
+                  "offset": 40
+                },
+                {
+                  "val": "AdTheorent155",
+                  "offset": 67
+                }
+              ],
+              "location": "AdTheorent_Upload_Tag_Sheet_withMap_Definition.user_logs_into_the_website_by_entering_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10059809919,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 13,
+                "value": "#   | username             | password      |"
+              },
+              {
+                "line": 14,
+                "value": "#   | admin@adtheorent.com | AdTheorent155 |"
+              }
+            ],
+            "line": 16,
+            "name": "validate the Dashboard page title",
+            "match": {
+              "location": "AdTheorent_Upload_Tag_Sheet_withMap_Definition.validate_the_Dashboard_page_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24337815524,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user selects a campaign by entering the CampaignID in the Search text box",
+            "match": {
+              "location": "AdTheorent_Upload_Tag_Sheet_withMap_Definition.user_selects_a_campaign_by_entering_the_CampaignID_in_the_Search_text_box(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "CampaignID"
+                ],
+                "line": 21
+              },
+              {
+                "cells": [
+                  "Campaign:-162"
+                ],
+                "line": 22
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20044622051,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user lands on the Campaign Properties page",
+            "match": {
+              "location": "AdTheorent_Upload_Tag_Sheet_withMap_Definition.user_lands_on_the_Campaign_Properties_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14162123391,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user expands the Creative Library panel",
+            "match": {
+              "location": "AdTheorent_Upload_Tag_Sheet_withMap_Definition.user_expands_the_Creative_Library_panel()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1097798105,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user clicks on the Upload Tag Sheet button to navigate to the Upload Tag Sheet interface",
+            "match": {
+              "location": "AdTheorent_Upload_Tag_Sheet_withMap_Definition.user_clicks_on_the_Upload_Tag_Sheet_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2066596714,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "clicks on the Cancel button",
+            "match": {
+              "location": "AdTheorent_Upload_Tag_Sheet_withMap_Definition.clicks_on_the_Cancel_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12024214810,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user is redirected to the Campaign Properties page",
+            "match": {
+              "location": "AdTheorent_Upload_Tag_Sheet_withMap_Definition.user_is_redirected_to_the_Campaign_Properties_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2091751591,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user again clicks on the Upload Tag Sheet button",
+            "match": {
+              "location": "AdTheorent_Upload_Tag_Sheet_withMap_Definition.user_again_clicks_on_the_Upload_Tag_Sheet_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3024124667,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user again navigates to the Upload Tag Sheet interface",
+            "match": {
+              "location": "AdTheorent_Upload_Tag_Sheet_withMap_Definition.user_again_navigates_to_the_Upload_Tag_Sheet_interface()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6276816109,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user clicks on the Submit button without uploading any file",
+            "match": {
+              "location": "AdTheorent_Upload_Tag_Sheet_withMap_Definition.user_clicks_on_the_Submit_button_without_uploading_any_file()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5018865731,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user accepts the system-generated alert",
+            "match": {
+              "location": "AdTheorent_Upload_Tag_Sheet_withMap_Definition.user_accepts_the_system_generated_alert()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 27500310955,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user uploads the Tag sheet from the specified path",
+            "match": {
+              "location": "AdTheorent_Upload_Tag_Sheet_withMap_Definition.user_uploads_the_Tag_sheet_from_the_specified_path(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "path"
+                ],
+                "line": 44
+              },
+              {
+                "cells": [
+                  "/Users/soumyak/work/Upload Tag Sheet/INS External AdSafe"
+                ],
+                "line": 45
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5075273398,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "clicks on the Submit button",
+            "match": {
+              "location": "AdTheorent_Upload_Tag_Sheet_withMap_Definition.clicks_on_the_Submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15045817038,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user lands on the Draft Creative List page after the file upload",
+            "match": {
+              "location": "AdTheorent_Upload_Tag_Sheet_withMap_Definition.user_lands_on_the_Draft_Creative_List_page_after_the_file_upload()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19126515375,
+              "status": "passed"
+            },
+            "output": [
+              "Finished successfully!!!"
+            ],
+            "line": 53,
+            "name": "user logs out of the Draft Creative List page",
+            "match": {
+              "location": "AdTheorent_Upload_Tag_Sheet_withMap_Definition.user_logs_out_of_the_Draft_Creative_List_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@FunctionalTest"
+          }
+        ]
+      }
+    ],
+    "name": "Tag Sheet Upload Feature",
+    "description": "",
+    "id": "tag-sheet-upload-feature",
+    "keyword": "Feature",
+    "uri": "/Users/soumyak/Documents/workspace/BDD_CucumberProject_using_TestNG/src/test/java/Feature_File_With_Maps/Tag_Sheet_Upload.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@FunctionalTest"
+      }
+    ]
+  }
+]

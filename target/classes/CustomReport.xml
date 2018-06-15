@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Report Suite" parallel="false">
+  <listeners>
+<listener class-name="AdTheorent.Automation.CustomReporter"></listener>
+</listeners>
+  <test name="AdTheorent Test">
+
+    <classes>
+      <class name="AdTheorent.Automation.ReporterTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

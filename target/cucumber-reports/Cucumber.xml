@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="192.331405">
+<testcase classname="Tag Sheet Upload Feature" name="Validate the Tag Sheet Upload Feature in the AdTheorent UAT Platform" time="192.331405">
+<system-out><![CDATA[Given user opens browser....................................................passed
+Then user is on login page..................................................passed
+Then user logs into the website by entering "admin@adtheorent.com" and "AdTheorent155".passed
+Then validate the Dashboard page title......................................passed
+When user selects a campaign by entering the CampaignID in the Search text box.passed
+Then user lands on the Campaign Properties page.............................passed
+Then user expands the Creative Library panel................................passed
+Then user clicks on the Upload Tag Sheet button to navigate to the Upload Tag Sheet interface.passed
+And clicks on the Cancel button.............................................passed
+Then user is redirected to the Campaign Properties page.....................passed
+When user again clicks on the Upload Tag Sheet button.......................passed
+Then user again navigates to the Upload Tag Sheet interface.................passed
+When user clicks on the Submit button without uploading any file............passed
+Then user accepts the system-generated alert................................passed
+When user uploads the Tag sheet from the specified path.....................passed
+And clicks on the Submit button.............................................passed
+Then user lands on the Draft Creative List page after the file upload.......passed
+Then user logs out of the Draft Creative List page..........................passed
+]]></system-out>
+</testcase>
+</testsuite>
